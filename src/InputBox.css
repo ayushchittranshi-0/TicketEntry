@@ -1,0 +1,123 @@
+.inputbox {
+    display: flex;
+
+    border: thin solid;
+    color:#333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.inputpad {
+    display: flex;
+    margin:3px;
+
+}
+
+.inputrow {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+}
+.numrow {
+    display: flex;
+    width: 450px;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+
+
+.numpad-icon {
+    width: 150px;
+    height: 100px;
+    border: thin solid;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.numpad-icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.addTicket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:450px;
+}
+
+.addTicket img{
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.searchrow {
+    display: flex;
+    width: 450px;
+    height: 70px;
+    justify-content: space-between;
+    
+}
+
+.error {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.error span{
+    color:#fc9960;
+    padding: 5px;
+    border-radius: 5px;;
+ display: inline-block;
+    background-color: #fff2e8;
+    border : 1px solid #fc9960;
+    width:250px;
+}
+
+.pInputTicket {
+    width: 300px;
+    text-align: center;
+}
+
+.wheelbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    width: 450px;
+    background-color:#186ab4;
+}
+
+.wheel {
+    margin: 0;
+padding: 0;
+    border: 0;
+    background-color:#186ab4;
+}
+
+.wheel:hover{
+    background-color:#186ab4;
+}
+
+.wheel img{
+    height:311px;
+width: 371px;
+margin:0;
+}
+
+.error.msg{
+    width:300px;
+}

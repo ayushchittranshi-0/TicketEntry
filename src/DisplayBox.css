@@ -1,0 +1,15 @@
+.displaybox {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.displayOuterBox {
+    color:#fff;
+    background-color:#186ab4;
+    padding-top:5px;
+    padding-bottom:10px;
+
+}
